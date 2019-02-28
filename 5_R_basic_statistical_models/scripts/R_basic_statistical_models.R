@@ -191,7 +191,7 @@
       
   
   ### 4.3 Data exploration of resposne variable 
-    ## a) Use ggplot, a power graphic package in R, to make a histogram of
+    ## a) Use ggplot, a powerful graphic package in R, to make a histogram of
       # of our response variable, ht.at.shoulder
       ggplot(data=tblDarting, aes(x=ht.at.shoulder, y = ..density..)) + 
         geom_histogram(breaks=seq(45, 90, by = 0.5), 
@@ -205,7 +205,7 @@
         labs(x="shoulder height (cm)", y="Frequency")
       
       
-    ## b) Use ggplot, a power graphic package in R, to make a histogram of
+    ## b) Use ggplot, a powerful graphic package in R, to make a histogram of
       # of our response variable, ht.at.shoulder, now on only cubs and subs
       ggplot(data=tblDarting_cub_sub, aes(x=ht.at.shoulder, y = ..density..)) + 
         geom_histogram(breaks=seq(45, 90, by = 0.5), 
